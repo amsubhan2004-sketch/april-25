@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>April 25 — Creative Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#hero" class="nav__logo">April 25</a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__list" id="navList">
+        <li><a href="#about"   class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#work"    class="nav__link">Work</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__content container">
+      <span class="hero__eyebrow">Welcome to April 25</span>
+      <h1 class="hero__title">We craft <em>digital</em><br>experiences that matter.</h1>
+      <p class="hero__subtitle">A creative studio focused on design, development, and strategy — turning bold ideas into beautiful products.</p>
+      <div class="hero__actions">
+        <a href="#work"    class="btn btn--primary">View Our Work</a>
+        <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <div class="hero__scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">About Us</span>
+        <h2 class="section__title">Small team, big ideas</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>We are a passionate team of designers, engineers, and strategists based around the world. Since our founding we have helped startups and established brands build products people love.</p>
+          <p>Every project starts with a conversation. We listen first, then design solutions tailored to your unique goals.</p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__number">50+</span>
+            <span class="stat__label">Projects Delivered</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">30+</span>
+            <span class="stat__label">Happy Clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">5</span>
+            <span class="stat__label">Years Experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__number">12</span>
+            <span class="stat__label">Awards Won</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">What We Do</span>
+        <h2 class="section__title">Services built around you</h2>
+      </div>
+      <div class="services__grid">
+        <div class="card">
+          <div class="card__icon">🎨</div>
+          <h3 class="card__title">UI / UX Design</h3>
+          <p class="card__text">User-centred interfaces that delight and convert — from wireframe to polished prototype.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">💻</div>
+          <h3 class="card__title">Web Development</h3>
+          <p class="card__text">Fast, accessible, and scalable websites and web apps built with modern technologies.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">📱</div>
+          <h3 class="card__title">Mobile Apps</h3>
+          <p class="card__text">Native and cross-platform mobile experiences that work seamlessly on every device.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🚀</div>
+          <h3 class="card__title">Growth Strategy</h3>
+          <p class="card__text">Data-driven strategies to grow your audience, improve retention, and hit your goals.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🔍</div>
+          <h3 class="card__title">SEO &amp; Analytics</h3>
+          <p class="card__text">Organic visibility and actionable insight — so you always know what's working.</p>
+        </div>
+        <div class="card">
+          <div class="card__icon">🛡️</div>
+          <h3 class="card__title">Maintenance &amp; Support</h3>
+          <p class="card__text">Ongoing care for your digital products — updates, security, and peace of mind.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Work / Portfolio -->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Portfolio</span>
+        <h2 class="section__title">Recent work</h2>
+      </div>
+      <div class="portfolio__grid">
+        <article class="portfolio__item portfolio__item--wide">
+          <div class="portfolio__image" style="background: linear-gradient(135deg,#6366f1 0%,#8b5cf6 100%);">
+            <span class="portfolio__category">Web App</span>
+          </div>
+          <div class="portfolio__info">
+            <h3>Horizon Dashboard</h3>
+            <p>A SaaS analytics platform with real-time data visualisation for e-commerce teams.</p>
+          </div>
+        </article>
+        <article class="portfolio__item">
+          <div class="portfolio__image" style="background: linear-gradient(135deg,#f59e0b 0%,#ef4444 100%);">
+            <span class="portfolio__category">Branding</span>
+          </div>
+          <div class="portfolio__info">
+            <h3>Ember Coffee</h3>
+            <p>Full brand identity for an artisan coffee chain.</p>
+          </div>
+        </article>
+        <article class="portfolio__item">
+          <div class="portfolio__image" style="background: linear-gradient(135deg,#10b981 0%,#06b6d4 100%);">
+            <span class="portfolio__category">Mobile App</span>
+          </div>
+          <div class="portfolio__info">
+            <h3>FitTrack</h3>
+            <p>Cross-platform fitness tracking app with AI-powered coaching.</p>
+          </div>
+        </article>
+        <article class="portfolio__item">
+          <div class="portfolio__image" style="background: linear-gradient(135deg,#3b82f6 0%,#6366f1 100%);">
+            <span class="portfolio__category">E-commerce</span>
+          </div>
+          <div class="portfolio__info">
+            <h3>Nova Store</h3>
+            <p>High-conversion Shopify storefront with custom theme and integrations.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__label">Contact</span>
+        <h2 class="section__title">Let's build something great</h2>
+      </div>
+      <div class="contact__wrapper">
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" required />
+            </div>
+            <div class="form__group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="jane@example.com" required />
+            </div>
+          </div>
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project enquiry" />
+          </div>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message →</button>
+          <p class="form__status" id="formStatus" aria-live="polite"></p>
+        </form>
+        <div class="contact__info">
+          <div class="contact__detail">
+            <span class="contact__icon">📧</span>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:hello@april25.studio">hello@april25.studio</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <span class="contact__icon">📞</span>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+10000000000">+1 (000) 000-0000</a>
+            </div>
+          </div>
+          <div class="contact__detail">
+            <span class="contact__icon">📍</span>
+            <div>
+              <strong>Location</strong>
+              <span>Remote-first, worldwide</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="nav__logo">April 25</span>
+      <p class="footer__copy">© 2025 April 25 Studio. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
